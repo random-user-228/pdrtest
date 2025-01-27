@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    overscroll-behavior: none; /* Блокує перетягування сторінки */
-    height: 100%;
-}
+html, body {
+    @apply overflow-hidden h-screen;
+  }
