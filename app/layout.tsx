@@ -37,7 +37,9 @@ export default async function RootLayout({
 <link rel="apple-touch-startup-image" href="/splashscreens/splash-640x1136.png" media="(device-width: 320px)" />
   <link rel="apple-touch-startup-image" href="/splashscreens/splash-750x1334.png" media="(device-width: 375px)" />
   <link rel="apple-touch-startup-image" href="/splashscreens/splash-828x1792.png" media="(device-width: 414px)" />
-  <link rel="apple-touch-startup-image" href="/splashscreens/splash-1125x2436.png" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 3)"
+  <link rel="apple-touch-startup-image" href="/splashscreens/splash-1125x2436.png" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 3)"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
 </head>
       <body className={inter.className}>
         <NavBar/>

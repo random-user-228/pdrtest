@@ -1,7 +1,7 @@
 {
-    "name": "Моя PWA",
-    "short_name": "PWA",
-    "description": "Опис вашого PWA",
+    "name": "Тести ПДР",
+    "short_name": "Тести ПДР",
+    "description": "Безкоштовна підготовка до іспиту водія",
     "lang": "uk-UA",
     "start_url": "/",
     "display": "standalone",
