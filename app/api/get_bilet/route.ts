@@ -234,22 +234,22 @@ const t_med = [...data.thirty_seven]
   return t_list_all
 }
 if (userdb){
-  if(userdb.category=='A'){
+  if(userdb.category==='A'){
     const datak = await fillListA()
     return NextResponse.json(datak)
-  }else if(userdb.category=='B'){
+  }else if(userdb.category==='B'){
     const datak = await fillListB()
     return NextResponse.json(datak)
-  }else if(userdb.category=='C'){
+  }else if(userdb.category==='C'){
     const datak = await fillListC()
     return NextResponse.json(datak)
-  }else if(userdb.category=='D'){
+  }else if(userdb.category==='D'){
     const datak = await fillListD()
     return NextResponse.json(datak)
-  }else if(userdb.category=='E'){
+  }else if(userdb.category==='E'){
     const datak = await fillListE()
     return NextResponse.json(datak)
-  }else if(userdb.category=='T'){
+  }else if(userdb.category==='T'){
     const datak = await fillListT()
     return NextResponse.json(datak)
   }

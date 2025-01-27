@@ -2,7 +2,7 @@
 import { MouseEventHandler, useState } from 'react';
 
 export default function Profile() {
-    const [userCategory, setUserCategory] = useState<string | null>(null);
+    const [userCategory, setUserCategory] = useState<string | null>();
 
     const updateUserCategory = async (newCategory: string) => {
         const response = await fetch('/api/profile/updateCategory', {
