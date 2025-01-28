@@ -29,7 +29,7 @@ export default function Profile() {
         <>
             <h2>Вітаємо, користувач</h2>
             <h3>Виберіть категорію</h3>
-            <div>
+            <div className=' flex'>
                 <button value="A" onClick={handleCategoryChange}>A,A1</button>
                 <button value="B" onClick={handleCategoryChange}>B,B1</button>
                 <button value="C" onClick={handleCategoryChange}>C,C1</button>

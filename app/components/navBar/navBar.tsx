@@ -10,9 +10,6 @@ import SignOut from '../logout'
 import ProfileMenu from './profile_menu'
 const navigation = [
   { name: 'Головна', href: '/', current: true },
-  { name: 'Тести', href: '#', current: false },
-  { name: 'Теорія', href: '#', current: false },
-  { name: 'Знаки', href: '#', current: false },
 ]
 
 function classNames(...classes: (string | false | null | undefined)[]): string {

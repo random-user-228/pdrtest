@@ -45,7 +45,7 @@ export default function Alert({name,description}:{name:string,description:string
                 onClick={() => {setOpen(false)
                 router.push('/')
                 }}
-                className="inline-flex w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+                className="inline-flex w-full justify-center m-1 rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
               >
                 На головну
               </button>
@@ -55,7 +55,7 @@ export default function Alert({name,description}:{name:string,description:string
                   window.location.reload();
                 router.refresh()
                 }}
-                className="inline-flex w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+                className="inline-flex w-full justify-center m-1 rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
               >
                 Пройти тест знову              </button>
             </div>
